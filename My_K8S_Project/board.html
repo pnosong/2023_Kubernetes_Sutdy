@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>게시글</title>
+    <style>
+      /* Add styles for the page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F5;
+      }
+      .title-section {
+        background-color: linear-gradient(to right, #F7DC6F, #F0B27A, #E59866);
+        padding: 50px 0;
+        text-align: center;
+      }
+      .title-section h1 {
+        font-size: 48px;
+        margin: 0;
+        color: #34495E;
+      }
+      .bulletin-board-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .bulletin-board {
+        width: 500px;
+        height: 200px;
+        background-color: #ECF0F1;
+        color: #34495E;
+        text-align: center;
+        margin: 20px;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #BDC3C7;
+      }
+      .bulletin-board h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      .bulletin-board p {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .bulletin-board a {
+        display: block;
+        background-color: #1ABC9C;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .bulletin-board a:hover {
+        background-color: #16A085;
+      }
+      .buttons {
+      display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.add-button,
+.delete-button {
+  background-color: #1ABC9C;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.add-button:hover,
+.delete-button:hover {
+  background-color: #16A085;
+}
+
+    </style>
+    
+  </head>
+  <body>
+    <div class="title-section">
+      <h1>게시글 목록</h1>
+    </div>
+    <div class="bulletin-board-list">
+      <div class="bulletin-board">
+        <h2>첫번째 글</h2>
+        <p>게시글 미리보기</p>
+        <a href="#">View Details</a>
+      </div>
+      <div class="bulletin-board">
+        <h2>두번째 글</h2>
+        <p>게시글 미리보기</p>
+        <a href="#">View Details</a>
+      </div>
+      <div class="bulletin-board">
+        <h2>세번째 글</h2>
+        <p>게시글 미리보기</p>
+        <a href="#">View Details</a>
+      </div>
+    </div>
+    <div class="buttons">
+        <button class="add-button">글 추가</button>
+        
+      </div>
+      
+  </body>
